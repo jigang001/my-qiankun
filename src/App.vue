@@ -1,10 +1,11 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/myAdmin">myAdmin</router-link>
+  <div>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/myAdmin">myAdmin</router-link>
+    </div>
+    <router-view />
   </div>
-  <router-view />
-  <div id="myAdmin"></div>
 </template>
 
 <style lang="less">
